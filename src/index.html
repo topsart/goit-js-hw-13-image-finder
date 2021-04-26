@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Search image</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=K2D:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <form class="search-form" id="search-form">
-      <input class="search" type="text" name="query" autocomplete="off" placeholder="Search images..." />
-    </form>
-
+    <div class="box">
+      <form class="search-form" id="search-form">
+        <input class="search" type="text" name="query" autocomplete="off" placeholder="Search images..." />
+        <button type="submit" class="button"><span>Search</span></button>
+      </form>
+    </div>
     <ul class="gallery"></ul>
     <div class="list-observer"></div>
   </body>

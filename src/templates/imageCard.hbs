@@ -1,8 +1,6 @@
 <li>
   <div class="photo-card">
-    <a href={{largeImageURL}}>
-      <img src={{webformatURL}} alt="" />
-    </a>
+    <img src={{webformatURL}} data-source={{largeImageURL}} alt={{tags}} />
 
     <div class="stats">
       <p class="stats-item">
@@ -22,6 +20,5 @@
         {{downloads}}
       </p>
     </div>
-    <div>{{tags}}</div>
   </div>
 </li>

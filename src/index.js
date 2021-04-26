@@ -1,3 +1,2 @@
 import './styles.css';
-import './js/images/imagesWithSearch';
-// import './js/images/index';
+import './js/imagesWithSearch';
