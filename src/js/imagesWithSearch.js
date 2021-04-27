@@ -16,7 +16,7 @@ function searchImages(event) {
   event.preventDefault();
   api.query = event.currentTarget.elements.query.value;
 
-  if (api.query === '') {
+  if (api.query === '' || api.query === ' ') {
     return error({
       text: 'Please fill the search field',
       delay: 2000,
